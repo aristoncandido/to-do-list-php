@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.conteiner{
+
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+   
+
+}
+.entrada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+form{
+  
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    
+
+}
+form div{
+  
+    width: 30%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  
+   
+}
+
+
+li{
+    
+    border: 1px solid;
+    list-style: none;
+    margin-top: 5%;
+}
